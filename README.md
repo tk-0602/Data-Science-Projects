@@ -45,7 +45,7 @@ How this will add to my data analysis and data science experience:
 - The web scraping techniques can be adapted to collect data from other domains, such as e-commerce, social media, or news sites.
 - The cleaned and structured data produced from this can serve as input for text analysis, sentiment analysis, or predictive modelling in various contexts (e.g. to create and train an RNN for predicting the next word in similar reviews).
 
-#### Future Improvements
+#### Potential Extensions
 
 - Implement advanced NLP techniques like topic modeling to automatically categorize review content.
 - Develop an automated solution by extending the use of the `BeautifulSoup` library here as well as adding real-time sentiment monitoring to track changes in customer satisfaction on a more granular level.
@@ -125,7 +125,7 @@ Results of the most important features determined by the model.
 - Optimise pricing strategies by identifing price sensitivities in different customer segments. This can also include personalising marketing campaigns (e.g. loyalty programs and special offers) by targeting customers with a higher likelihood of purchasing.
 - Extend the data analysis and ML models into a real-time predictive system in which the models (and hyperparameters) constantly update as live data is added.
 
-#### Future Improvements
+#### Potential Extensions
 
 - Compare the current models with other types such as Random Forest.
 - Explore data augmentation techniques to increase the training and test data samples.
