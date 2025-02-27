@@ -143,15 +143,3 @@ Results of the most important features determined by the model.
 This project is part of Forage's [PwC Switzerland Power BI](https://www.theforage.com/simulations/pwc-ch/power-bi-cqxg) Virtual Experience Program.
 
 </details>
-
-<details>
-<summary><h3>Anime Recommender</h3></summary>
-A collaborative filtering-based recommendation system built using Cosine Similarity which is used to measure distance between two points as an alternative to (and animporvement on) the traditional Euclidean Distance measurement.
-<br/><br/>
-
-_Add equations of Euclidean Distance and Cosine Similarity_
-
-
-Read more about this approach in this [Medium article](https://medium.com/@arjunprakash027/understanding-cosine-similarity-a-key-concept-in-data-science-72a0fcc57599)
-
-</details>
