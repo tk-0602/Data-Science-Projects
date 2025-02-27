@@ -68,7 +68,17 @@ This notebook represents the second part of the project of understanding and pre
 
 #### Applications
 
+- Enhance the booking experience by prioritising features important to customers within the user interface.
+- Optimise pricing strategies by identifing price sensitivities in different customer segments. This can also include personalising marketing campaigns (e.g. loyalty programs and special offers) by targeting customers with a higher likelihood of purchasing.
+- Extend the data analysis and ML models into a real-time predictive system in which the models (and hyperparameters) constantly update as live data is added.
+
 #### Future Improvements
+
+- Compare the current models with other types such as Random Forest.
+- - Explore data augmentation techniques to increase the training and test data samples.
+- Implement deep learning approaches such as neural networks for potentially higher accuracy.
+- Utilise ensemble methods for potentially improved performance by directly combining the predictions from multiple models or even combining the predictions from models trained on different representations of the data.
+- Incorporate additional data sources like macroeconomic indicators or competitor pricing to enhance the model's predictive power.
 
 </details>
 
