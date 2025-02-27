@@ -5,7 +5,7 @@ This repository houses a collection of data science projects, demonstrating my s
 <details>
 <summary><h3>Sentiment Analysis of Airline Reviews</h3></summary>
 
-This project is part of Forage's [British Airways Data Science](https://www.theforage.com/simulations/british-airways/data-science-yqoz) Virtual Experience Program.
+This project is part of the [British Airways Data Science Virtual Experience on Forage](https://www.theforage.com/simulations/british-airways/data-science-yqoz) during which I applied data science techniques to analyse customer feedback and enable data-driven decision-making. This involved performing sentiment analysis on airline reviews, building machine learning models to predict the most important factors towards customers completing their bookings, and visualising key trends to inform improvements. For this, I used Python and natural language processing (NLP) techniques to extract insights from unstructured text data in the form of online reviews which I scraped and saved to a `.csv` file (the `data-BA_reviews.csv` file included in this repository). Overall, I developed a deeper understanding of how data science can be used in various industries (the aviation industry, in this case) to drive customer-focused decision-making, improve operational efficiency, and enhance the overall passenger experience.
 
 <details>
 <summary><h4>Task 1: Web Scraping and Sentiment Analysis</h4></summary>
