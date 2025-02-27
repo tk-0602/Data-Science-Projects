@@ -128,7 +128,7 @@ Results of the most important features determined by the model.
 #### Future Improvements
 
 - Compare the current models with other types such as Random Forest.
-- - Explore data augmentation techniques to increase the training and test data samples.
+- Explore data augmentation techniques to increase the training and test data samples.
 - Implement deep learning approaches such as neural networks for potentially higher accuracy.
 - Utilise ensemble methods for potentially improved performance by directly combining the predictions from multiple models or even combining the predictions from models trained on different representations of the data.
 - Incorporate additional data sources like macroeconomic indicators or competitor pricing to enhance the model's predictive power.
