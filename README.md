@@ -25,8 +25,12 @@ The extracted data was processed and analysed using natural language processing 
 
 - Successfully scraped and cleaned a dataset containing reviews, bulding techniques and gaining experience for subsequent predictive analysis.
 - Visualised sentiment distribution across various aspects of the airline service.
-- Created wordclouds to highlight frequently mentioned positive and negative aspects.
+- Created a wordcloud to highlight frequently mentioned positive and negative aspects.
 - Demonstrated the feasibility of automating data collection from dynamic web pages.
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/01 Web Scraping and Sentiment Analysis/Reviews_per_Score.png">
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/01 Web Scraping and Sentiment Analysis/Wordcloud.png">
 
 #### Applications
 
@@ -65,6 +69,55 @@ This notebook represents the second part of the project of understanding and pre
 - The trained models successfully predicted customer booking outcomes with high accuracy (0.85 and 0.83 before and after hyperparameter optimisation, respecitvely).
 - In between the two, XGBoost with hyperparameter optimisation made better predections as indicated by the models' F1 scores in particular where the initial model had an F1 score of 0.08 which then improved to 0.21 with hyperparameter optimisation. However, since this is still below 0.5, the model still had rather poor performance. This could perhaps be improved by creating more training data using data augmentation, further optimising the hyperparameters, or even using another model such as a Random Forest Classifier or simpler regression methods like Linear, Lasso, Ridge, etc. 
 - Feature importance analysis identified critical factors influencing booking behaviour, namely `purchase_lead` (the number of days in between the date of booking and the date of the flight) and `length_of_stay`.
+
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/Outliers_in_Numeric_Columns.png">
+
+Box plots to identify outliers in the numeric columns.
+
+<break></break>
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/Dist_of_Numerical_Data.png">
+
+Distributions of the numerical columns.
+
+<break></break>
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/Feature_Transformation.png">
+
+The distributions were not normal so feature transformation was performed so that the ML model will have better results.
+
+<break></break>
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/XGBoost.png">
+
+Confusion matrix for the initial XGBoost Classifier:
+
+- Accuracy (Test Set): 0.85
+- Precision (Test Set): 0.42
+- Recall (Test Set): 0.04
+- F1-Score (Test Set): 0.08
+- roc_auc (test-proba): 0.52
+- roc_auc (train-proba): 0.53
+
+<break></break>
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/XGBoost_with_Hyperparameter_Optimisation.png">
+
+The confusion matrix for the classifier after hyperparameter optimisation:
+
+- Accuracy (Test Set): 0.83
+- Precision (Test Set): 0.34
+- Recall (Test Set): 0.15
+- F1-Score (Test Set): 0.21
+- roc_auc (test-proba): 0.55
+- roc_auc (train-proba): 0.98
+
+<break></break>
+
+<img src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/Feature_Importance.png">
+
+Results of the most important features determined by the model.
 
 #### Applications
 
