@@ -1,6 +1,8 @@
 # Data-Science-Projects
 
-This repository houses a collection of data science projects, demonstrating my skills and experience in applying data analysis, machine learning, and statistical techniques to a variety of situations, including real-world scenarios. Each of the projects in this repository highlight different aspects of the data science workflow, from data collection and preprocessing to model development and interpretation. These projects reflect my ability to extract meaningful insights from complex datasets and develop solutions that can drive business decisions.
+This repository is a collection of data science projects, demonstrating my skills and experience in applying data analysis, machine learning, and statistical techniques to a variety of situations. This includes real-world scenarios. Each of the projects in this repository highlight different aspects of the data science workflow, from data collection and preprocessing to model development and interpretation. These projects reflect my ability to extract meaningful insights from complex datasets and develop solutions that can drive business decisions.
+
+For my projects focusing specifically on machine learning methodologies, please explore my dedicated repository: [Machine-Learning-Projects](https://github.com/tk-0602/Machine-Learning-Projects).
 
 <details>
   <summary><h2>Sentiment Analysis of Airline Reviews</h2></summary>
@@ -88,7 +90,7 @@ This repository houses a collection of data science projects, demonstrating my s
   
   <break></break>
   
-  <img align="left" src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/XGBoost.png">
+  <img align = "left" src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/XGBoost.png">
   
   Confusion matrix for the initial XGBoost Classifier:
   
@@ -99,11 +101,11 @@ This repository houses a collection of data science projects, demonstrating my s
   - roc_auc (test-proba): 0.52
   - roc_auc (train-proba): 0.53
 
-  <br clear="left"/>
+  <br clear = "left"/>
   
   <break></break>
   
-  <img align="left" src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/XGBoost_with_Hyperparameter_Optimisation.png">
+  <img align = "left" src = "British-Airways-Data-Science/BA Data Science plots/02 Predictive Modeling of Customer Bookings/XGBoost_with_Hyperparameter_Optimisation.png">
   
   Confusion matrix for the classifier after hyperparameter optimisation:
   
@@ -114,7 +116,7 @@ This repository houses a collection of data science projects, demonstrating my s
   - roc_auc (test-proba): 0.55
   - roc_auc (train-proba): 0.98
 
-  <br clear="left"/>
+  <br clear = "left"/>
   
   <break></break>
   
